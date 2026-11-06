@@ -1,0 +1,27 @@
+# .NET test build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+artifacts/
+
+# .NET test results and coverage
+[Tt]est[Rr]esults/
+TestResult.xml
+nunit-*.xml
+*.trx
+*.coverage
+*.coveragexml
+coverage.cobertura.xml
+coverage.opencover.xml
+CodeCoverage/
+
+# JavaScript and browser test dependencies and reports
+node_modules/
+coverage/
+.nyc_output/
+playwright-report/
+blob-report/
+test-results/
+cypress/screenshots/
+cypress/videos/

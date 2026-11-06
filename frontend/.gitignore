@@ -1,0 +1,35 @@
+# Dependencies and package-manager caches
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Build output and framework caches
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+.svelte-kit/
+.angular/cache/
+.vite/
+.cache/
+.parcel-cache/
+.turbo/
+*.tsbuildinfo
+
+# Test reports
+coverage/
+.nyc_output/
+playwright-report/
+blob-report/
+test-results/
+cypress/screenshots/
+cypress/videos/
+
+# Keep package manifests and dependency lockfiles versioned.
