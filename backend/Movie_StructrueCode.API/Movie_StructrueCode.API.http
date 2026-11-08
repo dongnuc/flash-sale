@@ -1,6 +1,0 @@
-@Movie_StructrueCode.API_HostAddress = http://localhost:5241
-
-GET {{Movie_StructrueCode.API_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

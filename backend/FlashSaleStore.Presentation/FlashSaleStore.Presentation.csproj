@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Asp.Versioning.Mvc.ApiExplorer" Version="8.1.0" />
+    <PackageReference Include="Carter" Version="8.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FlashSaleStore.Application\FlashSaleStore.Application.csproj" />
+    <ProjectReference Include="..\FlashSaleStore.Contract\FlashSaleStore.Contract.csproj" />
+    <ProjectReference Include="..\FlashSaleStore.Domain\FlashSaleStore.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
